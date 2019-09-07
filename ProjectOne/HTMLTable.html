@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TableDemo</title>
+</head>
+<body>
+
+<table border = '1px' align = "center"> <!--边框属性，边框厚度是1px，align=center 表示居中属性，目前已经不使用了-->
+
+    <thead>
+    <tr> <!--tr代表一行-->
+        <th>name</th> <!--th代表单元格的表头，代表第一个单元格表头-->
+        <th>gender</th> <!--td代表单元格的表头，代表第二个单元格表头-->
+        <th>AGE</th>
+    </tr>
+    </thead>
+
+
+
+    <tr> <!--tr代表一行-->
+        <td>admin</td> <!--td代表单元格，代表第一个单元格内容-->
+        <td>male</td> <!--td代表单元格，代表第二个单元格内容-->
+        <td>age</td>
+    </tr>
+
+    <tr> <!--tr代表一行-->
+    <td>people</td> <!--td代表单元格，代表第一个单元格内容-->
+    <td>female</td> <!--td代表单元格，代表第二个单元格内容-->
+    <td>age</td>
+    </tr>
+
+    <tfoot>
+        <tr> <!--tr代表一行-->
+            <td>students</td> <!--td代表单元格，代表第一个单元格内容-->
+            <td>male</td> <!--td代表单元格，代表第二个单元格内容-->
+            <td>100</td>
+        </tr>
+
+    </tfoot>
+
+</table>
+
+
+<br>
+
+
+<table border="1px" align = "center"><!--irregular table-->
+
+<tr>
+    <th rowspan="2">aaaa</th> <!--rowspan表示合并上下单元格的意思，2个格子合并就用2，3个格子合并就用3-->
+    <th>aaaa</th>
+    <th>aaaa</th>
+    <th>aaaa</th>
+</tr>
+
+<tr>
+
+    <td colspan = "2">aaaa</td> <!--colspan表示合左右单元格的意思，2个格子合并就用2，3个格子合并就用3-->
+    <td>aaaa</td>
+</tr>
+
+<tr>
+    <td>aaaa</td>
+    <td>aaaa</td>
+    <td>aaaa</td>
+    <td>aaaa</td>
+</tr>
+
+</table>
+</body>
+</html>
